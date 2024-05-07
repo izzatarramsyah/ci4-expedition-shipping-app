@@ -4,20 +4,20 @@
 Simple Web Application with Expedited Shipping Service Case Study
 
 ## Project Stack
--> PHP (Codeigniter 4)
--> MySQL
--> Javascript & Jquery
--> PHP 8.1
--> Composer
--> Boostrap ( Admin LTE 4 )
+- PHP (Codeigniter 4)
+- MySQL
+- Javascript & Jquery
+- PHP 8.1
+- Composer
+- Boostrap ( Admin LTE 4 )
 
 ## Project Feature
--> Dashboard 
--> Create Shipment Order
--> Update Status Shipment
--> Shipment History
--> Customer Management
--> Data Master
+- Dashboard 
+- Create Shipment Order
+- Update Status Shipment
+- Shipment History
+- Customer Management
+- Data Master
 
 ## Project Preview
 
