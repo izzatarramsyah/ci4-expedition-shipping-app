@@ -1,68 +1,47 @@
-# CodeIgniter 4 Application Starter
+# Simple Codeigniter 4 Project
 
-## What is CodeIgniter?
+## Project Description
+Simple Web Application with Expedited Shipping Service Case Study
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Project Stack
+-> PHP (Codeigniter 4)
+-> MySQL
+-> Javascript & Jquery
+-> PHP 8.1
+-> Composer
+-> Boostrap ( Admin LTE 4 )
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Project Feature
+-> Dashboard 
+-> Create Shipment Order
+-> Update Status Shipment
+-> Shipment History
+-> Customer Management
+-> Data Master
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Project Preview
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Dashboard
+<img width="947" alt="dashboard" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/ab72d46c-75a5-413d-90a4-8acd9165cea4">
 
-## Installation & updates
+Create Shipment Order
+<img width="944" alt="createSO" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/852c1a50-2b84-4cc8-a2d2-5b645076fc26">
+<img width="948" alt="createSO add list item" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/d6b4715f-53a2-483e-8115-0c2fe554cb0e">
+<img width="947" alt="createSO invoice" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/c0874bd6-817f-47a6-804a-fedb07a44c76">
+<img width="958" alt="createSO print invoice" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/93714e91-65fa-4b23-8949-bb963b6ddceb">
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+Shipment History
+<img width="945" alt="shipment history" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/a522e894-d248-4e5f-9f66-909a1bab238f">
+<img width="956" alt="shipment history delivery status" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/a45d4e9c-a185-4bb1-86ae-3d3e0fc262e0">
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+Customer Management
+<img width="947" alt="customer management" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/4c1e97d8-9ca1-4385-8af2-be10fa55eab4">
 
-## Setup
+Data Master
+<img width="940" alt="data master weight rate" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/79c922d7-7587-489d-960f-b280226a4973">
+<img width="944" alt="data master shipping route" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/36476291-f648-4316-9bd3-c617c413683a">
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+Update Status Shipping
+<img width="955" alt="shipment package update status" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/88fcd110-8c1e-41c5-a839-bb322566125a">
+<img width="944" alt="shipment package" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/34bd2820-ca10-4c18-b8d7-4015fd7cf2af">
 
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> The end of life date for PHP 7.4 was November 28, 2022.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
