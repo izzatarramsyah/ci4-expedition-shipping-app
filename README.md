@@ -24,13 +24,13 @@ Simple Web Application with Expedited Shipping Service Case Study
 `Dashboard`
 <img width="947" alt="dashboard" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/ab72d46c-75a5-413d-90a4-8acd9165cea4">
 
-`Create Shipment Order`x
+`Create Shipment Order`
 <img width="944" alt="createSO" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/852c1a50-2b84-4cc8-a2d2-5b645076fc26">
 <img width="948" alt="createSO add list item" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/d6b4715f-53a2-483e-8115-0c2fe554cb0e">
 <img width="947" alt="createSO invoice" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/c0874bd6-817f-47a6-804a-fedb07a44c76">
 <img width="958" alt="createSO print invoice" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/93714e91-65fa-4b23-8949-bb963b6ddceb">
 
-Shipment History
+`Shipment History`
 <img width="945" alt="shipment history" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/a522e894-d248-4e5f-9f66-909a1bab238f">
 <img width="956" alt="shipment history delivery status" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/a45d4e9c-a185-4bb1-86ae-3d3e0fc262e0">
 
