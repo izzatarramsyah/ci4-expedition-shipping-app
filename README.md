@@ -1,25 +1,32 @@
-# Simple Codeigniter 4 Project
+# 🚚 Simple CodeIgniter 4 Project
 
-## Project Description
-Simple Web Application with Expedited Shipping Service Case Study
+A simple web application built with **CodeIgniter 4**, designed as a case study for an **Expedited Shipping Service**. This project demonstrates the implementation of key backend and frontend features in a structured and scalable way.
 
-## Project Stack
-- PHP (Codeigniter 4)
-- MySQL
-- Javascript & Jquery
-- PHP 8.1
-- Composer
-- Boostrap ( Admin LTE 4 )
+---
 
-## Project Feature
-- Dashboard 
-- Create Shipment Order
-- Update Status Shipment
-- Shipment History
-- Customer Management
-- Data Master
+## 📦 Tech Stack
 
-## Project Preview
+- **PHP 8.1**
+- **CodeIgniter 4**
+- **MySQL**
+- **JavaScript & jQuery**
+- **Composer**
+- **Bootstrap (AdminLTE 4)**
+
+---
+
+## 🔧 Features
+
+- 📊 Dashboard
+- ➕ Create Shipment Order
+- 🔄 Update Shipment Status
+- 📜 Shipment History
+- 👤 Customer Management
+- 🗂️ Master Data Management
+
+---
+
+## 🖼️ Project Preview
 
 `Dashboard`
 <img width="947" alt="dashboard" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/ab72d46c-75a5-413d-90a4-8acd9165cea4">
@@ -45,3 +52,20 @@ Simple Web Application with Expedited Shipping Service Case Study
 <img width="955" alt="shipment package update status" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/88fcd110-8c1e-41c5-a839-bb322566125a">
 <img width="944" alt="shipment package" src="https://github.com/izzatarramsyah/codeigniter4-practice-projects/assets/24617733/34bd2820-ca10-4c18-b8d7-4015fd7cf2af">
 
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- PHP 8.1+
+- Composer
+- MySQL
+- Web Server (Apache/Nginx)
+
+### Installation
+
+```bash
+git clone https://github.com/izzatarramsyah/codeigniter4-practice-projects
+cd codeigniter-shipping-project
+composer install
+php spark serve
