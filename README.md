@@ -65,7 +65,7 @@ A simple web application built with **CodeIgniter 4**, designed as a case study 
 ### Installation
 
 ```bash
-git clone https://github.com/izzatarramsyah/codeigniter4-practice-projects
+git clone https://github.com/izzatarramsyah/ci4-expedition-shipping-app
 cd codeigniter-shipping-project
 composer install
 php spark serve
